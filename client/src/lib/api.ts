@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { Book, BookFormData } from '@/types/book';
 
 const api = axios.create({
-  baseURL: 'https://meusite.com.br/api',
+  baseURL: '/api',
   headers: {
     'Content-Type': 'application/json',
   },
